@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: spring-intellij
+server:
+  port: 9000
