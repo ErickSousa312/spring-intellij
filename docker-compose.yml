@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   spring-app:
-    build: ericksousa312/spring-docker
+    image: ericksousa312/spring-docker
     ports:
       - "9000:9000"
     environment:
