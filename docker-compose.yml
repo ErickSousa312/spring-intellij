@@ -3,6 +3,7 @@ version: '3.8'
 services:
   spring-app:
     image: ericksousa312/spring-docker
+    restart: always
     ports:
       - "9000:9000"
     environment:
